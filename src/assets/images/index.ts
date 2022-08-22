@@ -35,6 +35,10 @@ import shopImg6 from './shop/shop-plant-6.png';
 import customizeVector1 from './vectors/customize-vector-1.svg';
 import customizeVector2 from './vectors/customize-vector-2.svg';
 import heartIcon from './icons/heart-icon.svg';
+import sendIcon from './icons/send-icon.svg';
+
+import scribbleVector from './vectors/scribble-vector.svg';
+import sparkleVector from './vectors/sparkle-vector.svg';
 
 export {
   navLogo,
@@ -71,4 +75,7 @@ export {
   customizeVector1,
   customizeVector2,
   heartIcon,
+  sendIcon,
+  sparkleVector,
+  scribbleVector,
 };

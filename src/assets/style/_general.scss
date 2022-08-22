@@ -131,6 +131,10 @@ a {
   text-decoration: none;
   color: unset;
 }
+button {
+  background: none;
+  border: none;
+}
 
 .bg-white {
   background-color: $color-white !important;

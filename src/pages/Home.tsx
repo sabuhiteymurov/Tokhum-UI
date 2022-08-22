@@ -6,6 +6,7 @@ import Customize from '../components/Customize';
 import EasyLevelCare from '../components/EasyLevelCare';
 import Shop from '../components/Shop';
 import OfficePlants from '../components/OfficePlants';
+import CtaFooter from '../components/CtaFooter';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <EasyLevelCare />
         <Shop />
         <OfficePlants />
+        <CtaFooter />
       </div>
     </>
   );
