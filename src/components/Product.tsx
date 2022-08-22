@@ -7,12 +7,14 @@ const Product: React.FC<{
   productPrice: string;
   productFeatures: string[];
   availability: boolean;
+  bottomBg: string;
 }> = ({
   productName,
   productPrice,
   productFeatures,
   productImg,
   availability,
+  bottomBg = 'gray',
 }) => {
   const likeIconRef = useRef();
   const handleLikeClick = () => {
@@ -31,7 +33,11 @@ const Product: React.FC<{
       >
         <img src={heartIcon} alt='heart' />
       </div>
-      <div className='product-desc-container'>
+      <div
+        className={`product-desc-container ${
+          bottomBg === 'white' ? 'bg-white' : ''
+        }`}
+      >
         <p className='product-name'>{productName}</p>
         <p className='product-price'>{productPrice}</p>
         <div className='product-features-container'>

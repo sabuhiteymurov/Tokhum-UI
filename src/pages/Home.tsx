@@ -4,6 +4,7 @@ import Features from '../components/Features';
 import Top20Products from '../components/Top20Products';
 import Customize from '../components/Customize';
 import EasyLevelCare from '../components/EasyLevelCare';
+import Shop from '../components/Shop';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Top20Products />
         <Customize />
         <EasyLevelCare />
+        <Shop />
       </div>
     </>
   );
