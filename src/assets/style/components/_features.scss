@@ -1,0 +1,35 @@
+.section-features {
+  padding: 8rem 0;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: 24rem;
+  height: 9.6rem;
+
+  &-icon {
+    padding: 1.2rem;
+    border-radius: 100rem;
+    background-color: $color-tertiary-opacity;
+    svg {
+      font-size: 2.4rem;
+      stroke: $color-tertiary;
+      color: $color-tertiary;
+      z-index: 2;
+    }
+  }
+
+  &-title {
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 10.8rem;
+  gap: 7.6rem;
+  width: 144rem;
+  margin: 0 auto !important;
+  height: 8.8rem;
+  left: 0;
+  top: 0;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(200, 200, 200, 0.25);
+
+  &-main-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 4.8rem;
+
+    width: 75.2rem;
+    height: 2.4rem;
+    &_link {
+      text-decoration: none;
+      color: $color-primary;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2.4rem;
+    }
+  }
+
+  &-main-icons {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}

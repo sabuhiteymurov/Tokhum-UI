@@ -1,0 +1,10 @@
+.section-easy {
+  background-color: $section-background;
+  padding-top: 8rem;
+}
+.easy-level-title_oval {
+  @extend .top-20-title_oval;
+  left: -1px !important;
+  top: -6px !important;
+  width: 28.9rem !important;
+}

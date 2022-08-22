@@ -1,0 +1,31 @@
+.products-container {
+  position: relative;
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // Title oval
+    .top-20-title_oval {
+      left: -3%;
+      top: -1rem;
+      width: 22.6rem;
+      height: 6.6rem;
+      z-index: 1;
+    }
+
+    &_buttons {
+      display: flex;
+      align-items: center;
+      gap: 4.75rem;
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+  .products {
+    padding-top: 5.5rem;
+    padding-bottom: 8rem;
+    gap: 2.4rem;
+  }
+}

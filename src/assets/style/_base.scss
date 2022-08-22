@@ -1,0 +1,49 @@
+// COLORS
+$color-primary: #282727;
+$color-secondary: #0f5c4c;
+$color-secondary-lighter: #6cada0;
+$color-secondary-lighter-2: #96c8bd;
+$color-secondary-opacity: #f2fcfa;
+$color-tertiary: #c6d65d;
+$color-tertiary-opacity: rgba(198, 214, 93, 0.2);
+$color-text: #a19d9d;
+
+$page-background: #e5e5e5;
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #f1f5f8;
+
+$button-background: #0f5c4c;
+$button-background-darker: #034033;
+
+$article-background: #f7f7f7;
+$section-background: #f7f7f7;
+
+$radius: 2px;
+$spacing: 0.25rem;
+
+$transition: all 0.3s linear;
+$transformRight: translateX(90%);
+$transformLeft: translateX(0);
+
+// SHADOWS
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  line-height: 1;
+  font-weight: 400;
+  color: $color-primary;
+  overflow-x: hidden;
+}

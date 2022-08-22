@@ -1,0 +1,66 @@
+.product {
+  position: relative;
+  width: 24rem;
+  &-desc-container {
+    padding: 1.6rem;
+    background-color: $article-background;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  &-icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100rem;
+    padding: 8px 7px 8px 7px;
+    background-color: $color-white;
+    z-index: 2;
+    svg {
+      color: $button-background-darker;
+      font-size: 1.5rem;
+    }
+  }
+  &-name {
+    size: 1.4rem;
+    line-height: 2.24rem;
+    color: $color-text;
+    margin-bottom: 8px;
+  }
+  &-price {
+    color: $color-primary;
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+  }
+  &-features-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 8px;
+  }
+  &-feature {
+    background-color: $color-white;
+    padding: 4px 8px;
+  }
+  &-button {
+    color: $color-white;
+    padding: 1.2rem 5.35rem;
+    background-color: $button-background;
+  }
+}
+
+// Out of stock
+.out-of-stock {
+  background-color: $color-secondary-opacity;
+  color: $color-secondary-lighter-2;
+}
+
+// Liked product icon
+.liked-product {
+  background-color: $color-tertiary !important;
+  color: $color-primary;
+}
