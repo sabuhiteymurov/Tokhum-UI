@@ -17,6 +17,7 @@ $button-background: #0f5c4c;
 $button-background-darker: #034033;
 
 $article-background: #f7f7f7;
+$article-background-lighter: #f8f8f8;
 $section-background: #f7f7f7;
 
 $radius: 2px;
@@ -29,6 +30,7 @@ $transformLeft: translateX(0);
 // SHADOWS
 $light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 $dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+$box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
 
 * {
   padding: 0;

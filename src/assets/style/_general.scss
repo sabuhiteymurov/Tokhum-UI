@@ -131,9 +131,19 @@ a {
   text-decoration: none;
   color: unset;
 }
+
+li {
+  list-style: none;
+}
 button {
   background: none;
   border: none;
+}
+
+select {
+  -moz-appearance: none !important; /* Firefox */
+  -webkit-appearance: none !important; /* Safari and Chrome */
+  appearance: none !important;
 }
 
 .bg-white {
@@ -141,4 +151,8 @@ button {
 }
 .bg-gray {
   background-color: $article-background !important;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
 }

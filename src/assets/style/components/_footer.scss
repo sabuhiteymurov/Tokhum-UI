@@ -1,0 +1,104 @@
+.footer {
+  padding-top: 8rem;
+  padding-bottom: 2.4rem;
+
+  &-logo-language-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+    position: relative;
+  }
+  &-select_language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    gap: 8px;
+    width: 26.4rem;
+    height: 4.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: $article-background-lighter;
+    span {
+      margin-right: auto;
+      font-size: 1.6rem;
+    }
+    svg {
+      font-size: 2.4rem;
+      color: $color-text;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-main-links {
+    margin-bottom: 4rem;
+
+    .footer-link-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+
+      &_title {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 0.8rem;
+        list-style: none;
+      }
+      &_link {
+        list-style: none;
+        margin-bottom: 0.8rem;
+        font-size: 1.6rem;
+      }
+      &_telephone,
+      &_email {
+        @extend .footer-link-container_link;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+      }
+    }
+  }
+  .footer-container_copyright {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  &-social-links_container {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 1.6rem;
+  }
+
+  &-language-select_modal {
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    z-index: 15;
+    padding: 1.2rem;
+    @extend .footer-select_language;
+    height: unset;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+    box-shadow: $light-shadow;
+
+    li {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      height: 4.8rem;
+    }
+    img {
+      height: 2.4rem;
+      width: 2.4rem;
+    }
+  }
+}

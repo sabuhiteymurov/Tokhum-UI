@@ -1,8 +1,11 @@
 import navLogo from './nav-logo.svg';
+import footerLogo from './footer-logo.svg';
+
 import titleOval from './vectors/oval.svg';
 import titleOval2 from './vectors/oval-2.svg';
 import titleOval3 from './vectors/oval-3.svg';
 import titleOval4 from './vectors/oval-3.svg';
+
 import heroPot1 from './hero/header-pot-1.png';
 import vector1 from './vectors/image-vector-1.svg';
 import heroPot2 from './hero/header-pot-2.png';
@@ -34,14 +37,27 @@ import shopImg6 from './shop/shop-plant-6.png';
 
 import customizeVector1 from './vectors/customize-vector-1.svg';
 import customizeVector2 from './vectors/customize-vector-2.svg';
-import heartIcon from './icons/heart-icon.svg';
-import sendIcon from './icons/send-icon.svg';
-
 import scribbleVector from './vectors/scribble-vector.svg';
 import sparkleVector from './vectors/sparkle-vector.svg';
 
+import heartIcon from './icons/heart-icon.svg';
+import sendIcon from './icons/send-icon.svg';
+
+import usaFlagIcon from './icons/usa-flag.svg';
+import azeFlagIcon from './icons/azerbaijan-flag.svg';
+import rusFlagIcon from './icons/russia-flag.svg';
+
+import footerYoutubeIcon from './icons/footer-youtube-icon.svg';
+import footerTiktokIcon from './icons/footer-tiktok-icon.svg';
+import footerInstagramIcon from './icons/footer-instagram-icon.svg';
+import footerTwitterIcon from './icons/footer-twitter-icon.svg';
+import footerFacebookIcon from './icons/footer-facebook-icon.svg';
+import footerTelephoneIcon from './icons/footer-telephone-icon.svg';
+import footerEmailIcon from './icons/footer-email-icon.svg';
+
 export {
   navLogo,
+  footerLogo,
   titleOval,
   titleOval2,
   titleOval3,
@@ -76,6 +92,16 @@ export {
   customizeVector2,
   heartIcon,
   sendIcon,
+  footerYoutubeIcon,
+  footerTwitterIcon,
+  footerFacebookIcon,
+  footerInstagramIcon,
+  footerTiktokIcon,
+  usaFlagIcon,
+  rusFlagIcon,
+  azeFlagIcon,
+  footerEmailIcon,
+  footerTelephoneIcon,
   sparkleVector,
   scribbleVector,
 };

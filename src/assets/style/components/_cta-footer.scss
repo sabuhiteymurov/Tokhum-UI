@@ -1,11 +1,10 @@
 .section-cta-footer {
   background-color: $color-secondary;
   position: relative;
-  z-index: -1;
+
   .cta-footer-container {
     padding: 15.1rem 0;
     position: relative;
-    z-index: 1;
 
     .cta-footer {
       width: 45.6rem;
@@ -33,6 +32,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-radius: 4px;
 
         &-input {
           width: 90%;

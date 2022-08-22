@@ -7,6 +7,7 @@ import EasyLevelCare from '../components/EasyLevelCare';
 import Shop from '../components/Shop';
 import OfficePlants from '../components/OfficePlants';
 import CtaFooter from '../components/CtaFooter';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Shop />
         <OfficePlants />
         <CtaFooter />
+        <Footer />
       </div>
     </>
   );
