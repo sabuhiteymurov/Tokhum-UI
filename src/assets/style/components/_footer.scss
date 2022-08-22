@@ -95,6 +95,11 @@
       align-items: center;
       gap: 8px;
       height: 4.8rem;
+      width: 100%;
+
+      &:hover {
+        background-color: #dfdfdf;
+      }
     }
     img {
       height: 2.4rem;
