@@ -42,6 +42,7 @@
 .hero-article-container_article-2 {
   position: relative;
   background-color: $article-background;
+  border-radius: 2px;
 }
 .hero-article-container_article-3 {
   @extend .hero-article-container_article-2;

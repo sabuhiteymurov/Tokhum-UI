@@ -1,0 +1,11 @@
+.section-office {
+  background-color: $section-background;
+  padding-top: 8rem;
+}
+.office-title_oval {
+  @extend .top-20-title_oval;
+  left: -4rem !important;
+  top: 0.2rem !important;
+  width: 18.9rem !important;
+  height: 4.4rem !important;
+}

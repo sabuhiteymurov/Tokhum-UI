@@ -42,7 +42,13 @@ const Product: React.FC<{
         <p className='product-price'>{productPrice}</p>
         <div className='product-features-container'>
           {productFeatures.map((feature) => (
-            <div className='product-feature'>{feature}</div>
+            <div
+              className={`product-feature ${
+                bottomBg === 'white' ? 'bg-gray' : 'bg-white'
+              }`}
+            >
+              {feature}
+            </div>
           ))}
         </div>
         <button
