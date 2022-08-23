@@ -96,6 +96,8 @@
       gap: 8px;
       height: 4.8rem;
       width: 100%;
+      transition: all 0.5s;
+      border-radius: 2px;
 
       &:hover {
         background-color: #dfdfdf;
